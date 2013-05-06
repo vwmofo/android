@@ -242,7 +242,7 @@
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project name="Flyhalf205/vigor_aosp_kernel" path="kernel/htc/vigor-3.0" />
+  <project name="Flyhalf205/vigor_aosp_kernel" path="kernel/htc/vigor-3.0" revision="cm-10.1-ion" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
