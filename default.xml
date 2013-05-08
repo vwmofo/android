@@ -35,8 +35,8 @@
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" />
-  <project path="device/htc/vigor" name="Flyhalf205/device_htc_vigor" />
-  <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" revision="cm-10.1-ion" />
+  <project path="device/htc/vigor" name="Flyhalf205/device_htc_vigor" revision="cm-10.1-ion" />
+  <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" />
   <project path="device/generic/x86" name="CyanogenMod/android_device_generic_x86" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
