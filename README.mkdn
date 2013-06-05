@@ -41,3 +41,6 @@ Run Linaro script:
 
     . android/linaro.sh
 
+Then to brunch:
+
+    brunch vigor
