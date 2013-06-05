@@ -4,9 +4,6 @@
 
 DIR=$(pwd)
 
-cd $DIR/bionic
-git fetch https://github.com/VigorCM/android_bionic && git cherry-pick 6591597aca9c9e6feccede8cfe5d87fe84c8506e
-
 cd $DIR/build
 git fetch https://github.com/VigorCM/android_build && git cherry-pick d1c239cc7dc2b2588a7b62a8962e90277d71d9ba
 
