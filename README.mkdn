@@ -44,3 +44,18 @@ Run Linaro script:
 Then to brunch:
 
     brunch vigor
+
+Building with SaberMod 4.9/4.8 GCC
+--------
+
+Initialize your local repository. Instructed above.
+
+Run Linaro script:
+
+    . android/SaberMod.sh
+    NOTE: THIS WILL TAKE A LONG TIME. IT WILL DOWNLOAD NEARLY 2GB.
+    BUT YOU WILL ONLY DOWNLOAD IT ONCE UNLESS YOU REMOVE PREBUILTS FOLDER.
+
+Then to brunch:
+
+    brunch vigor
