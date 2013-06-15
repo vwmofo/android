@@ -15,7 +15,7 @@ cd $DIR/prebuilts/gcc/linux-x86/arm
 git clone -b master https://github.com/SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9 arm-linux-androideabi-4.9
 
 cd $DIR/build
-git fetch https://github.com/VigorCM/android_build 4.8-4.9 && git cherry-pick 98099bb7319e0c916cc3fa932c6fc3df8d435d26
+git fetch https://github.com/VigorCM/android_build 4.8-4.9 && git cherry-pick baf060581e3af1bb8125db0bb027f7556925dc24
 
 cd $DIR/external/oprofile 
 git fetch https://github.com/VigorCM/android_external_oprofile 4.8-4.9 && git cherry-pick befc593f85ac2c15d5fe7fc11ea77f7e8ffca1a1
