@@ -139,6 +139,9 @@ git fetch https://github.com/VigorCM/android_system_security && git cherry-pick 
 cd $DIR/kernel/htc/vigor-3.0
 git fetch https://github.com/VigorCM/vigor_aosp_kernel 4.8-4.9 && git cherry-pick f804449fe697b84ab52b113a65a4b563aaf633d5
 
+cd $DIR/device/htc/vigor
+git fetch https://github.com/VigorCM/device_htc_vigor && git cherry-pick e3ac6757f4d70e80fea8ba639cde8e6950a8731c
+
 cd $DIR/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 git fetch https://github.com/VigorCM/SaberMod_Androideabi_4.9.git master && git cherry-pick 32f1fe199539bdb3388d253ee34cdabceaf22784
 
