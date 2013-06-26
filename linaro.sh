@@ -5,10 +5,10 @@
 DIR=$(pwd)
 
 cd $DIR/build
-git fetch https://github.com/VigorCM/android_build && git cherry-pick d1c239cc7dc2b2588a7b62a8962e90277d71d9ba
+git fetch https://github.com/VigorCM/android_build linaro-4.8 && git cherry-pick 08de661ab5d510eed68efe5cfc2233b2774a100c
 
 cd $DIR/prebuilts/gcc/linux-x86/arm
-git clone -b master https://github.com/VigorCM/linaro-4.7 linaro-4.7
+git clone -b master https://github.com/VigorCM/linaro-4.8 linaro-4.8
 
 cd $DIR/frameworks/base/
 git fetch https://github.com/VigorCM/android_frameworks_base && git cherry-pick fdae6574060332712c287e427559ca10431be8c7
@@ -41,7 +41,7 @@ cd $DIR/external/openvpn/
 git fetch https://github.com/VigorCM/android_external_openvpn && git cherry-pick 6d315c7a7da2e54739d36c84019f080075d8e044
 
 cd $DIR/external/oprofile 
-git fetch https://github.com/VigorCM/android_external_oprofile && git cherry-pick ca4f48dbd999b2585fba3647ae43e00f12d88fde
+git fetch https://github.com/VigorCM/android_external_oprofile linaro-4.8 && git cherry-pick 45493526b681b7a9e1e357cd77dd8302fc0f8367
 
 cd $DIR/external/ping/ 
 git fetch https://github.com/VigorCM/android_external_ping && git cherry-pick 550976836571a0cabafdaa0e41f8c4582216ae9d
@@ -95,7 +95,10 @@ cd $DIR/hardware/qcom/media
 git fetch https://github.com/VigorCM/android_hardware_qcom_media && git cherry-pick 40283ff435651cc67fa4c616437bfd12bcd729a1
 
 cd $DIR/kernel/htc/vigor-3.0
-git fetch https://github.com/VigorCM/vigor_aosp_kernel && git cherry-pick f1110c5a6dd128111c5bc8f6fc4cd8610dca28ab
+git fetch https://github.com/VigorCM/vigor_aosp_kernel 4.8-4.9 && git cherry-pick f804449fe697b84ab52b113a65a4b563aaf633d5
+
+cd $DIR/device/htc/vigor
+git fetch https://github.com/VigorCM/device_htc_vigor && git cherry-pick e3ac6757f4d70e80fea8ba639cde8e6950a8731c
 
 cd $DIR/libcore 
 git fetch https://github.com/VigorCM/android_libcore && git cherry-pick b7bdcde9b774ece13d22d634b51dcfefbc8a68f6
@@ -105,8 +108,8 @@ git fetch https://github.com/VigorCM/android_system_security && git cherry-pick 
 
 cd $DIR
 export USE_LINARO_COMPILER_FLAGS=yes
-export ANDROID_EABI_TOOLCHAIN_DIR=linaro-4.7
-export ARM_EABI_TOOLCHAIN_DIR=linaro-4.7
+export ANDROID_EABI_TOOLCHAIN_DIR=linaro-4.8
+export ARM_EABI_TOOLCHAIN_DIR=linaro-4.8
 export DEBUG_NO_STRICT_ALIASING=yes
 ./vendor/cm/get-prebuilts
 . build/envsetup.sh
