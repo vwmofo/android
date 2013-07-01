@@ -41,7 +41,7 @@ cd $DIR/external/openvpn/
 git fetch https://github.com/VigorCM/android_external_openvpn && git cherry-pick 6d315c7a7da2e54739d36c84019f080075d8e044
 
 cd $DIR/external/oprofile 
-git fetch https://github.com/VigorCM/android_external_oprofile linaro-4.8 && git cherry-pick 45493526b681b7a9e1e357cd77dd8302fc0f8367
+git fetch https://github.com/VigorCM/android_external_oprofile linaro-4.8 && git cherry-pick 45493526b681b7a9e1e357cd77dd8302fc0f8367 && git cherry-pick f8379dd269e4a5a4319fcc908c80674a9ad6de90
 
 cd $DIR/external/ping/ 
 git fetch https://github.com/VigorCM/android_external_ping && git cherry-pick 550976836571a0cabafdaa0e41f8c4582216ae9d
