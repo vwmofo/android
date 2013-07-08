@@ -14,7 +14,7 @@ cd $DIR/frameworks/base/
 git fetch https://github.com/VigorCM/android_frameworks_base && git cherry-pick fdae6574060332712c287e427559ca10431be8c7
 
 cd $DIR/external/bluetooth/bluedroid 
-git fetch https://github.com/VigorCM/android_external_bluetooth_bluedroid && git cherry-pick b924e00c80e923c4f04682b659b7ef3efb594597
+git fetch https://github.com/VigorCM/android_external_bluetooth_bluedroid && git cherry-pick a8759bee7481f9e91a0911c368cb190756c9f129
 
 cd $DIR/external/chromium/
 git fetch https://github.com/VigorCM/android_external_chromium && git cherry-pick 0868f03fd0561bfd9b21be040ea3666ad19fdc6d
