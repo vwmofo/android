@@ -103,6 +103,9 @@ git fetch https://github.com/VigorCM/device_htc_vigor && git cherry-pick e3ac675
 cd $DIR/libcore 
 git fetch https://github.com/VigorCM/android_libcore && git cherry-pick b7bdcde9b774ece13d22d634b51dcfefbc8a68f6
 
+cd $DIR/system/core/
+git fetch https://github.com/VigorCM/android_system_core.git && git cherry-pick 63f1d1f9399c27a009c43b13b6c15198e5976528
+
 cd $DIR/system/security/
 git fetch https://github.com/VigorCM/android_system_security && git cherry-pick 2f2cd35bbd4219d23a89615942776c61f1086b3a
 
