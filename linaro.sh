@@ -5,7 +5,7 @@
 DIR=$(pwd)
 
 cd $DIR/build
-git fetch https://github.com/VigorCM/android_build linaro-4.8 && git cherry-pick 08de661ab5d510eed68efe5cfc2233b2774a100c && git cherry-pick 579ca658d8e807848f92c41a601e24d8ec918d4c
+git fetch https://github.com/VigorCM/android_build linaro-4.8 && git cherry-pick 08de661ab5d510eed68efe5cfc2233b2774a100c
 
 cd $DIR/prebuilts/gcc/linux-x86/arm
 git clone -b master https://github.com/VigorCM/linaro-4.8 linaro-4.8
