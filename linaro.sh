@@ -28,6 +28,9 @@ git fetch https://github.com/VigorCM/android_external_dnsmasq && git cherry-pick
 cd $DIR/external/e2fsprogs/ 
 git fetch https://github.com/VigorCM/android_external_e2fsprogs && git cherry-pick 05a6a057fc41e1848d14e6a7c1245b6d3726d3d5
 
+cd $DIR/external/fuse/
+git fetch https://github.com/VigorCM/android_external_fuse && git cherry-pick f9cfa64b2ed0bdf08a695ba7ba70240ada5b584c
+
 cd $DIR/external/lsof/ 
 git fetch https://github.com/VigorCM/android_external_lsof && git cherry-pick a7c61af7b01a1fdc05d2c340234dece84ded152c
 
@@ -104,7 +107,7 @@ cd $DIR/libcore
 git fetch https://github.com/VigorCM/android_libcore && git cherry-pick b7bdcde9b774ece13d22d634b51dcfefbc8a68f6
 
 cd $DIR/system/core/
-git fetch https://github.com/VigorCM/android_system_core.git && git cherry-pick 63f1d1f9399c27a009c43b13b6c15198e5976528
+git fetch https://github.com/VigorCM/android_system_core && git cherry-pick 63f1d1f9399c27a009c43b13b6c15198e5976528
 
 cd $DIR/system/security/
 git fetch https://github.com/VigorCM/android_system_security && git cherry-pick 2f2cd35bbd4219d23a89615942776c61f1086b3a
