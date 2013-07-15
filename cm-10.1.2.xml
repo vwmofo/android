@@ -23,12 +23,12 @@
 
   <project path="android" name="Flyhalf205/android" />
 
-  <project path="device/htc/vigor" name="Flyhalf205/device_htc_vigor" />
-  <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" />
-  <project path="hardware/qcom/display-legacy" name="Flyhalf205/android_hardware_qcom_display-legacy" />
-  <project path="hardware/qcom/media-legacy" name="Flyhalf205/android_hardware_qcom_media-legacy" />
-  <project name="Flyhalf205/vigor_aosp_kernel" path="kernel/htc/vigor-3.0" />
-  <project path="vendor/htc/vigor" name="Flyhalf205/vendor_htc_vigor" />
+  <project path="device/htc/vigor" name="Flyhalf205/device_htc_vigor" revision="cm-10.1" />
+  <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" revision="cm-10.1" />
+  <project path="hardware/qcom/display-legacy" name="Flyhalf205/android_hardware_qcom_display-legacy" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="Flyhalf205/android_hardware_qcom_media-legacy" revision="cm-10.1" />
+  <project name="Flyhalf205/vigor_aosp_kernel" path="kernel/htc/vigor-3.0" revision="cm-10.1" />
+  <project path="vendor/htc/vigor" name="Flyhalf205/vendor_htc_vigor" revision="cm-10.1" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
