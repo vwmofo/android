@@ -15,20 +15,20 @@
   <default revision="refs/heads/cm-10.2"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="6" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Flyhalf205/android" />
+  <project path="android" name="IAmTheOneTheyCallNeo/android" />
   
-  <project path="device/htc/vigor" name="Flyhalf205/device_htc_vigor" />
-  <project path="device/htc/msm8660-common" name="Flyhalf205/android_device_htc_msm8660-common" />
-  <project path="kernel/htc/vigor-3.0" name="Flyhalf205/vigor_aosp_kernel" />
-  <project path="hardware/qcom/display-legacy" name="Flyhalf205/android_hardware_qcom_display-legacy" />
-  <project path="hardware/qcom/media-legacy" name="Flyhalf205/android_hardware_qcom_media-legacy" />
-  <project path="vendor/htc/vigor" name="Flyhalf205/vendor_htc_vigor" />
+  <project path="device/htc/vigor" name="IAmTheOneTheyCallNeo/device_htc_vigor" />
+  <project path="device/htc/msm8660-common" name="IAmTheOneTheyCallNeo/android_device_htc_msm8660-common" />
+  <project path="kernel/htc/vigor-3.0" name="IAmTheOneTheyCallNeo/vigor_aosp_kernel" />
+  <project path="hardware/qcom/display-legacy" name="IAmTheOneTheyCallNeo/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/media-legacy" name="IAmTheOneTheyCallNeo/android_hardware_qcom_media-legacy" />
+  <project path="vendor/htc/vigor" name="IAmTheOneTheyCallNeo/vendor_htc_vigor" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
