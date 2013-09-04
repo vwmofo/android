@@ -110,8 +110,11 @@ git fetch https://github.com/IAmTheOneTheyCallNeo/android_dalvik cm-10.2 && git 
 cd $DIR/external/clang/
 git fetch https://github.com/IAmTheOneTheyCallNeo/android_external_clang cm-10.2 && git cherry-pick 0b6178cdee2a5bb3fff706631c8d3eac817c45cc
 
-cd $DIR/external/bash
+cd $DIR/external/bash/
 git fetch https://github.com/IAmTheOneTheyCallNeo/android_external_bash cm-10.2 && git cherry-pick 455ffceb1a658a9fc0c5c6969b8cf1cb6ba6695b
+
+cd $DIR/hardware/qcom/media-caf/
+git fetch https://github.com/IAmTheOneTheyCallNeo/android_hardware_qcom_media-caf cm-10.2 && git cherry-pick 153b06b51f4c3cd0f87f9876744a442d0448ad9c
 
 ./vendor/cm/get-prebuilts
 . build/envsetup.sh
