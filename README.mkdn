@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod/Flyhalf205 trees, use a command like this:
 
-    repo init -u git://github.com/Flyhalf205/android.git -b cm-10.2
+    repo init -u git://github.com/IAmTheOneTheyCallNeo/android.git -b cm-10.2
 
 Then to sync up:
 
@@ -31,31 +31,3 @@ Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building ins
 
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
-
-Building Full Linaro
---------
-
-Initialize your local repository. Instructed above.
-
-Run Linaro script:
-
-    . android/linaro.sh
-
-Then to brunch:
-
-    brunch vigor
-
-Building with SaberMod 4.9/4.8 GCC
---------
-
-Initialize your local repository. Instructed above.
-
-Run SaberMod script:
-
-    . android/SaberMod.sh
-    NOTE: THIS WILL TAKE A LONG TIME. IT WILL DOWNLOAD NEARLY 2GB.
-    BUT YOU WILL ONLY DOWNLOAD IT ONCE UNLESS YOU REMOVE PREBUILTS FOLDER.
-
-Then to brunch:
-
-    brunch vigor
