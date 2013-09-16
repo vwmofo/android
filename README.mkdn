@@ -7,9 +7,9 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod/Flyhalf205 trees, use a command like this:
+To initialize your local repository using the CyanogenMod/vigor trees, use a command like this:
 
-    repo init -u git://github.com/IAmTheOneTheyCallNeo/android.git -b cm-10.2
+    repo init -u git://github.com/vigor/android.git -b cm-10.2
 
 Then to sync up:
 
