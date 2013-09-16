@@ -52,7 +52,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the PAC-man trees, use a command like this:
 
-    repo init -u git://github.com/PAC-man/android.git -b <branch>
+    repo init -u git://github.com/PAC-man/android.git -b cm-10.2
 
 Then to sync up:
 
@@ -60,7 +60,7 @@ Then to sync up:
 
 Then to build:
 
-    ./build-pac.sh <device_name>
+    ./build-pac.sh vigor
 
 For information on how to build, check [Here](http://forum.xda-developers.com/showthread.php?t=2060017)
 Our Official IRC Channel: [#pac-rom](http://webchat.freenode.net/?channels=pac-rom)
