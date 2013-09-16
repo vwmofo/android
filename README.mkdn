@@ -25,7 +25,7 @@ Then to build environment:
 
 Then to brunch:
 
-    brunch vigor
+    time brunch vigor
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
