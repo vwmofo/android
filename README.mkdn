@@ -43,4 +43,6 @@ Fetch your prebuilts from the root working directory:
 
 Build the rom:
 
+    . build/envsetup.sh
+
     time brunch vigor
